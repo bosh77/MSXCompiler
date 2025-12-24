@@ -51,10 +51,10 @@ You can select TARGET of your compilation (CARTRIDGE or DISK)
 
 Depending on the TARGET (cartridge or disk), a .ROM file of a maximum of 512kb or a .DSK file containing up to a maximum of 32 binary files of 16kb each will be created!
 
-- Memory containing the binary code (4000h-7fffh) with memory mapper to change page
-- Memory containing the variables (8000h-bfffh)
-- Reserved memory (c000h-cb2fh)
-- Additional memory available from cb30h onwards. (Note that the stack pointer is initialized to DB00h)
+- Memory containing the binary code (4000h-7FFFh) with memory mapper to change page
+- Memory containing the variables (8000h-BFFFh)
+- Reserved memory (C000h-D16Fh)
+- Additional memory available from D170h onwards. (Note that the stack pointer is initialized to DB00h)
 - Stack (DB00h) but you can change it in Settings window
 
 ## Instructions and syntax
